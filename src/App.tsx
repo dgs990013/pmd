@@ -143,6 +143,13 @@ const apps = [
     iconUrl: "https://pic1.imgdb.cn/item/68692e6558cb8da5c89176f7.jpg",
     url: "https://pkajim.hfjcl.com/app/register.php?site_id=1032&topId=1056008",
   },
+            {
+      id: 21,
+      name: '戴高乐',
+      description: '30号开业发放百万红包',
+      iconUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',
+       url: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040'
+    }, 
 ];
 
 function App() {
