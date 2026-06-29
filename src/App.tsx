@@ -150,13 +150,7 @@ const apps = [
     iconUrl: "https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg",
     url: "https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D",
   },
-    {
-    id: 22,
-    name: "28圈",
-    description: "",
-    iconUrl: "https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f9.jpg",
-    url: "https://149.30.210.144:35384/#/link?allwin=7qsbWl9437468",
-  },
+  
   { 
     id: 23, 
     name: "超凡国际", 
