@@ -3,15 +3,13 @@ import React from 'react';
 const marqueeText = "长期招商，年入百万。添加（泡泡密语）客服号：773473671";
 
 // =============================================
-// 横向广告栏配置 — 在此处修改广告链接和图片
+// 底部横向广告配置 — 在此处修改广告链接和图片
 // =============================================
-const bottomBanner1 = {
-  link: "https://telegram.org/",
-  imageUrl: "https://pic.imgdb.cn/i/033oY29bM71ksG96Ei6IgX.jpg",
-  imageAlt: "Telegram",
+const bottomBanner = {
+  link: "https://www.paopaomiyu.xyz",
+  imageUrl: "https://i.postimg.cc/gk2xhyQZ/pao-pao-mi-yu222.webp",
+  imageAlt: "旺旺商聊",
 };
-
-
 // =============================================
 
 const apps = [
@@ -243,40 +241,19 @@ function App() {
         </div>
       </div>
 
-      {/* 横向广告区域 1 */}
+      {/* 横向广告区域 */}
       <div className="px-4 pb-4">
         <div className="max-w-6xl mx-auto">
           <a
-            href={bottomBanner1.link}
+            href={bottomBanner.link}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full group"
           >
             <div className="relative overflow-hidden rounded-lg shadow-lg bg-gradient-to-r from-purple-600 to-blue-600 p-1">
               <img
-                src={bottomBanner1.imageUrl}
-                alt={bottomBanner1.imageAlt}
-                className="w-full h-auto object-contain rounded-md"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-20 rounded-md transition-opacity duration-300 group-hover:bg-opacity-10"></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      {/* 横向广告区域 2 */}
-      <div className="px-4 pb-4">
-        <div className="max-w-6xl mx-auto">
-          <a
-            href={bottomBanner2.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full group"
-          >
-            <div className="relative overflow-hidden rounded-lg shadow-lg bg-gradient-to-r from-purple-600 to-blue-600 p-1">
-              <img
-                src={bottomBanner2.imageUrl}
-                alt={bottomBanner2.imageAlt}
+                src={bottomBanner.imageUrl}
+                alt={bottomBanner.imageAlt}
                 className="w-full h-auto object-contain rounded-md"
               />
               <div className="absolute inset-0 bg-black bg-opacity-20 rounded-md transition-opacity duration-300 group-hover:bg-opacity-10"></div>
